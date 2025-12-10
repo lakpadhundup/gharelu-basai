@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <rect width="1200" height="1200" fill="#F3F4F6"/>
+  
+  <!-- Mountains in background -->
+  <path fill="#059669" opacity="0.3" d="M0 800 L200 400 L400 600 L600 300 L800 500 L1000 400 L1200 700 L1200 1200 L0 1200 Z"/>
+  <path fill="#059669" opacity="0.5" d="M100 850 L300 500 L500 650 L700 400 L900 600 L1100 500 L1200 800 L1200 1200 L0 1200 Z"/>
+  
+  <!-- Traditional Nepali house -->
+  <g transform="translate(400, 550)">
+    <!-- House base -->
+    <rect x="50" y="150" width="300" height="200" fill="#D97706"/>
+    
+    <!-- Roof -->
+    <path d="M 0 150 L 200 50 L 400 150 Z" fill="#92400E"/>
+    <path d="M 20 150 L 200 70 L 380 150 Z" fill="#B45309"/>
+    
+    <!-- Door -->
+    <rect x="150" y="230" width="100" height="120" fill="#78350F"/>
+    
+    <!-- Windows -->
+    <rect x="80" y="200" width="60" height="60" fill="#FEF3C7"/>
+    <rect x="260" y="200" width="60" height="60" fill="#FEF3C7"/>
+  </g>
+  
+  <!-- Ground -->
+  <rect y="900" width="1200" height="300" fill="#A3E635" opacity="0.4"/>
+</svg>
